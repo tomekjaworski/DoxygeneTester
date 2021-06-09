@@ -147,11 +147,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\StaticLibrary\framework.h" />
-    <ClInclude Include="..\StaticLibrary\pch.h" />
+    <ClCompile Include="..\StaticLibrary\StaticLibrary.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\StaticLibrary\StaticLibrary.cpp" />
+    <ClInclude Include="..\StaticLibrary\StaticLibrary.hpp" />
+    <ClInclude Include="..\StaticLibrary\Inheritances.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
