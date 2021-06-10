@@ -48,7 +48,7 @@ public:
 	virtual void SomeMethod1_Second(void) = 0;
 
 	/**
-	 * Opis metody. Ten opis znajduje się w klasie \ref ISomeInterface_Second i jest dziedziczony przez tę metodę w klasach potomnych.
+	 * \brief Opis metody. Ten opis znajduje się w klasie \ref ISomeInterface_Second i jest dziedziczony przez tę metodę w klasach potomnych.
 	 * \return Zwraca jakąś wartość zmiennoprzecinkową.
 	 */
 	virtual long double GetSomeCounter_Second(void) const = 0;
