@@ -144,6 +144,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\SomeConsoleApp\SomeConsoleApp.cpp" />
+    <ClCompile Include="Unfinished.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="StaticLibrary.vcxproj">

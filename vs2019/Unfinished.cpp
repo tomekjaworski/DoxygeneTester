@@ -14,6 +14,11 @@ public:
     /// \param fileName A ten parametr opisano za pomocą tagów Doxygene.
     /// \todo A to oznacza, że coś trzeba dodać w konstruktorze klasy ClassUnfinished.
     ClassUnfinished(int value, const char* fileName);
+
+    ClassUnfinished(void) = delete;
+
+    static int test; /// <summary>xxxxx</summary>
+    static void test2(int a, int b); /// <summary>opis metody2</summary>
 };
 
 
@@ -25,3 +30,8 @@ public:
 /// 
 class ClassDescribedInXml {
 };
+
+int wmain(int a, int b, float c) {
+
+    ClassUnfinished::
+}
