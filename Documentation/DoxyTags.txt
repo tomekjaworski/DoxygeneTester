@@ -1,0 +1,378 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>dllmain.cpp</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/DynamicLibrary/</path>
+    <filename>db/ddc/dllmain_8cpp</filename>
+    <includes id="d8/d24/_dynamic_library_2pch_8h" name="pch.h" local="yes" imported="no">pch.h</includes>
+    <member kind="function">
+      <type>BOOL APIENTRY</type>
+      <name>DllMain</name>
+      <anchorfile>db/ddc/dllmain_8cpp.html</anchorfile>
+      <anchor>a26e64fb39b69bcd9d1274d279f1561b9</anchor>
+      <arglist>(HMODULE hModule, DWORD ul_reason_for_call, LPVOID lpReserved)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>framework.h</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/DynamicLibrary/</path>
+    <filename>d6/dee/_dynamic_library_2framework_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>WIN32_LEAN_AND_MEAN</name>
+      <anchorfile>d6/dee/_dynamic_library_2framework_8h.html</anchorfile>
+      <anchor>ac7bef5d85e3dcd73eef56ad39ffc84a9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>framework.h</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/StaticLibrary/</path>
+    <filename>d2/d9f/_static_library_2framework_8h</filename>
+    <member kind="define">
+      <type>#define</type>
+      <name>WIN32_LEAN_AND_MEAN</name>
+      <anchorfile>d2/d9f/_static_library_2framework_8h.html</anchorfile>
+      <anchor>ac7bef5d85e3dcd73eef56ad39ffc84a9</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>pch.h</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/DynamicLibrary/</path>
+    <filename>d8/d24/_dynamic_library_2pch_8h</filename>
+    <includes id="d6/dee/_dynamic_library_2framework_8h" name="framework.h" local="yes" imported="no">framework.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>pch.h</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/StaticLibrary/</path>
+    <filename>d7/d56/_static_library_2pch_8h</filename>
+    <includes id="d2/d9f/_static_library_2framework_8h" name="framework.h" local="yes" imported="no">framework.h</includes>
+  </compound>
+  <compound kind="file">
+    <name>SomeConsoleApp.cpp</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/SomeConsoleApp/</path>
+    <filename>d1/d8c/_some_console_app_8cpp</filename>
+    <includes id="d0/d98/_static_library_8hpp" name="StaticLibrary.hpp" local="yes" imported="no">..\StaticLibrary\StaticLibrary.hpp</includes>
+    <includes id="d2/da1/_inheritances_8hpp" name="Inheritances.hpp" local="yes" imported="no">..\StaticLibrary\Inheritances.hpp</includes>
+    <class kind="class">SomeClass</class>
+    <member kind="function">
+      <type>int</type>
+      <name>main</name>
+      <anchorfile>d1/d8c/_some_console_app_8cpp.html</anchorfile>
+      <anchor>ae66f6b31b5ad750f1fe042a706a4e3d4</anchor>
+      <arglist>()</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Source.cpp</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/SomeConsoleApp/</path>
+    <filename>dd/d6e/_source_8cpp</filename>
+    <class kind="struct">STRUCT</class>
+    <class kind="class">Test</class>
+    <member kind="function">
+      <type>int</type>
+      <name>test</name>
+      <anchorfile>dd/d6e/_source_8cpp.html</anchorfile>
+      <anchor>a1f3479a5eb21a215c63cfcd8876e3486</anchor>
+      <arglist>(void)</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>Inheritances.hpp</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/StaticLibrary/</path>
+    <filename>d2/da1/_inheritances_8hpp</filename>
+    <class kind="class">Base</class>
+    <class kind="class">ClassA</class>
+    <class kind="class">ClassB</class>
+    <class kind="class">ClassC</class>
+    <class kind="interface">ISomeInterface_First</class>
+    <class kind="interface">ISomeInterface_Second</class>
+    <class kind="interface">ICompositeInterface</class>
+  </compound>
+  <compound kind="file">
+    <name>StaticLibrary.cpp</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/StaticLibrary/</path>
+    <filename>d6/d89/_static_library_8cpp</filename>
+    <includes id="d7/d56/_static_library_2pch_8h" name="pch.h" local="yes" imported="no">pch.h</includes>
+    <includes id="d2/da1/_inheritances_8hpp" name="Inheritances.hpp" local="yes" imported="no">Inheritances.hpp</includes>
+    <class kind="class">X</class>
+    <member kind="function">
+      <type>void</type>
+      <name>fnStaticLibrary</name>
+      <anchorfile>d6/d89/_static_library_8cpp.html</anchorfile>
+      <anchor>aba5d4a8ce42fb323f537d05ee178f747</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>X</type>
+      <name>static_var</name>
+      <anchorfile>d6/d89/_static_library_8cpp.html</anchorfile>
+      <anchor>a7d243d991e067fa4c7d6aef930bd09a3</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>StaticLibrary.hpp</name>
+    <path>D:/!do_usuniecia/doxy/DoxygeneTester/StaticLibrary/</path>
+    <filename>d0/d98/_static_library_8hpp</filename>
+    <class kind="class">WxString</class>
+    <member kind="define">
+      <type>#define</type>
+      <name>SOME_CONSTANT1</name>
+      <anchorfile>d0/d98/_static_library_8hpp.html</anchorfile>
+      <anchor>a5255fa8a4a45d6c2e560bd62e1605c1b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SOME_CONSTANT2</name>
+      <anchorfile>d0/d98/_static_library_8hpp.html</anchorfile>
+      <anchor>aa113de16c65445d36f8710af5f630f93</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SOME_CONSTANT4</name>
+      <anchorfile>d0/d98/_static_library_8hpp.html</anchorfile>
+      <anchor>a6df58f027f26393c5d4290c960d7bad4</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="define">
+      <type>#define</type>
+      <name>SOME_CONSTANT3</name>
+      <anchorfile>d0/d98/_static_library_8hpp.html</anchorfile>
+      <anchor>ad814ce4c65464b19830afd983251eb4d</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>Base</name>
+    <filename>db/dfc/class_base.html</filename>
+    <member kind="function" virtualness="virtual">
+      <type>virtual void</type>
+      <name>VirtualMethod1</name>
+      <anchorfile>db/dfc/class_base.html</anchorfile>
+      <anchor>a557363330d35a7bbf1c44bfc1a49f241</anchor>
+      <arglist>(void) const</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ClassA</name>
+    <filename>d9/d2f/class_class_a.html</filename>
+    <base>Base</base>
+    <member kind="function" protection="private" virtualness="virtual">
+      <type>virtual void</type>
+      <name>VirtualMethod1</name>
+      <anchorfile>d9/d2f/class_class_a.html</anchorfile>
+      <anchor>a20dd68684a3e022c185ea6a0b66094d8</anchor>
+      <arglist>(void) const override</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ClassB</name>
+    <filename>df/d91/class_class_b.html</filename>
+    <base>ClassA</base>
+    <member kind="function" protection="private" virtualness="virtual">
+      <type>virtual void</type>
+      <name>VirtualMethod1</name>
+      <anchorfile>df/d91/class_class_b.html</anchorfile>
+      <anchor>acbccc8925337c979e14c31832d65bc8e</anchor>
+      <arglist>(void) const override</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ClassC</name>
+    <filename>d3/d5d/class_class_c.html</filename>
+    <base>ClassB</base>
+    <member kind="function" protection="private">
+      <type>void</type>
+      <name>VirtualMethod1</name>
+      <anchorfile>d3/d5d/class_class_c.html</anchorfile>
+      <anchor>ae9eed9c6499a4041ec2949aa88edfa3c</anchor>
+      <arglist>(void) const override</arglist>
+    </member>
+  </compound>
+  <compound kind="interface">
+    <name>ICompositeInterface</name>
+    <filename>d8/dce/class_i_composite_interface.html</filename>
+    <base>ISomeInterface_First</base>
+    <base>ISomeInterface_Second</base>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SomeMethod1_First</name>
+      <anchorfile>d4/ddd/class_i_some_interface___first.html</anchorfile>
+      <anchor>afb2c07ffdb2e9d4fd9dcdd789ac920e7</anchor>
+      <arglist>(void)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::uint32_t</type>
+      <name>GetSomeCounter_First</name>
+      <anchorfile>d4/ddd/class_i_some_interface___first.html</anchorfile>
+      <anchor>a22a2562e59698388b5a339c18952a514</anchor>
+      <arglist>(void) const =0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SomeMethod1_Second</name>
+      <anchorfile>d6/d3d/class_i_some_interface___second.html</anchorfile>
+      <anchor>a9cda36c6cf436a255d74ec78dcb284c8</anchor>
+      <arglist>(void)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual long double</type>
+      <name>GetSomeCounter_Second</name>
+      <anchorfile>d6/d3d/class_i_some_interface___second.html</anchorfile>
+      <anchor>ace80ea283053c144289968b922a4dddd</anchor>
+      <arglist>(void) const =0</arglist>
+    </member>
+  </compound>
+  <compound kind="interface">
+    <name>ISomeInterface_First</name>
+    <filename>d4/ddd/class_i_some_interface___first.html</filename>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SomeMethod1_First</name>
+      <anchorfile>d4/ddd/class_i_some_interface___first.html</anchorfile>
+      <anchor>afb2c07ffdb2e9d4fd9dcdd789ac920e7</anchor>
+      <arglist>(void)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual std::uint32_t</type>
+      <name>GetSomeCounter_First</name>
+      <anchorfile>d4/ddd/class_i_some_interface___first.html</anchorfile>
+      <anchor>a22a2562e59698388b5a339c18952a514</anchor>
+      <arglist>(void) const =0</arglist>
+    </member>
+  </compound>
+  <compound kind="interface">
+    <name>ISomeInterface_Second</name>
+    <filename>d6/d3d/class_i_some_interface___second.html</filename>
+    <member kind="function" virtualness="pure">
+      <type>virtual void</type>
+      <name>SomeMethod1_Second</name>
+      <anchorfile>d6/d3d/class_i_some_interface___second.html</anchorfile>
+      <anchor>a9cda36c6cf436a255d74ec78dcb284c8</anchor>
+      <arglist>(void)=0</arglist>
+    </member>
+    <member kind="function" virtualness="pure">
+      <type>virtual long double</type>
+      <name>GetSomeCounter_Second</name>
+      <anchorfile>d6/d3d/class_i_some_interface___second.html</anchorfile>
+      <anchor>ace80ea283053c144289968b922a4dddd</anchor>
+      <arglist>(void) const =0</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>SomeClass</name>
+    <filename>d1/daa/class_some_class.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>SomeClass</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>ac149a58779b9b1a357cdd42d4dbb8694</anchor>
+      <arglist>(const std::wstring name, std::uint32_t counter)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>~SomeClass</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>af70a73d312cae180c6e80656c553486d</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type>WxString</type>
+      <name>ToString</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>a73512963ed9b407c18a96c464b03dc25</anchor>
+      <arglist>(void)</arglist>
+    </member>
+    <member kind="variable">
+      <type>std::uint64_t</type>
+      <name>test_value</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>aca1b935929727e5c72ee551f9c7f83aa</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>std::vector&lt; std::vector&lt; std::pair&lt; std::string, std::uint32_t &gt; &gt; &gt;</type>
+      <name>some_test_vector</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>ae8f50ef16366f9a90776c37b8241f017</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private">
+      <type>std::wstring</type>
+      <name>name</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>aac2222f68a715b5ccebe686fb66840d0</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private">
+      <type>std::uint32_t</type>
+      <name>counter</name>
+      <anchorfile>d1/daa/class_some_class.html</anchorfile>
+      <anchor>aa344d5433ae11a40ef2492e6aa97989c</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="struct">
+    <name>STRUCT</name>
+    <filename>d1/dd9/struct_s_t_r_u_c_t.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>Test</name>
+    <filename>d1/d9b/class_test.html</filename>
+    <member kind="function">
+      <type>int</type>
+      <name>a_public_method</name>
+      <anchorfile>d1/d9b/class_test.html</anchorfile>
+      <anchor>a7a5d69df0a2d5ecc00da0417c71dc166</anchor>
+      <arglist>(int first_arg, STRUCT second_arg)</arglist>
+    </member>
+    <member kind="variable">
+      <type>int</type>
+      <name>a_public_variable</name>
+      <anchorfile>d1/d9b/class_test.html</anchorfile>
+      <anchor>a4c856db663cc0ff919cabe5f14814a7a</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>WxString</name>
+    <filename>d3/d7b/class_wx_string.html</filename>
+  </compound>
+  <compound kind="class">
+    <name>X</name>
+    <filename>d1/da8/class_x.html</filename>
+    <base>ICompositeInterface</base>
+    <member kind="function" protection="private" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SomeMethod1_First</name>
+      <anchorfile>d1/da8/class_x.html</anchorfile>
+      <anchor>a3f149bbae87e002defc58e972c52ffd5</anchor>
+      <arglist>(void) override</arglist>
+    </member>
+    <member kind="function" protection="private" virtualness="virtual">
+      <type>virtual std::uint32_t</type>
+      <name>GetSomeCounter_First</name>
+      <anchorfile>d1/da8/class_x.html</anchorfile>
+      <anchor>ad12d852a97fbc1e10677193c37e4532b</anchor>
+      <arglist>(void) const override</arglist>
+    </member>
+    <member kind="function" protection="private" virtualness="virtual">
+      <type>virtual void</type>
+      <name>SomeMethod1_Second</name>
+      <anchorfile>d1/da8/class_x.html</anchorfile>
+      <anchor>a9d076f8a33b77359eda0db42d1ffec84</anchor>
+      <arglist>(void) override</arglist>
+    </member>
+    <member kind="function" protection="private" virtualness="virtual">
+      <type>virtual long double</type>
+      <name>GetSomeCounter_Second</name>
+      <anchorfile>d1/da8/class_x.html</anchorfile>
+      <anchor>a18ce4773b522a51f423e3b8fb52c989a</anchor>
+      <arglist>(void) const override</arglist>
+    </member>
+  </compound>
+</tagfile>
